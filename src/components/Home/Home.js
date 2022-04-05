@@ -1,9 +1,12 @@
 import React from 'react';
+import useDatas from '../../hooks/useDatas';
 import image from '../../images/yzr-m1.jpg'
-import HomeReview from '../HomeReview/HomeReview';
+import Review from '../Review/Review';
 
 
 const Home = () => {
+
+    const [datas, setDatas] = useDatas()
 
 
     return (
@@ -22,6 +25,12 @@ const Home = () => {
             </div>
             <div className='mt-12'>
                 <h1 className="text-4xl font-bold">Bikers Review</h1>
+                <div className='lg:grid grid-cols-2 gap-4 mt-12 p-8 '>
+                    {
+                        datas.slice(0, 4).map(data => <Review key={data.id} data={data} ></Review>)
+                    }
+                </div>
+
             </div>
         </div>
     );
