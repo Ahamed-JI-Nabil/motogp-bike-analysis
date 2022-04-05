@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useDatas from '../../hooks/useDatas';
 import image from '../../images/yzr-m1.jpg'
 import Review from '../Review/Review';
@@ -7,6 +8,8 @@ import Review from '../Review/Review';
 const Home = () => {
 
     const [datas, setDatas] = useDatas()
+
+    const navigate = useNavigate()
 
 
     return (
@@ -30,6 +33,7 @@ const Home = () => {
                         datas.slice(0, 4).map(data => <Review key={data.id} data={data} ></Review>)
                     }
                 </div>
+                <button onClick={() => navigate('/reviews')} className="bg-indigo-700 text-white font-bold py-2 px-8 rounded-lg">See All Review</button>
 
             </div>
         </div>
