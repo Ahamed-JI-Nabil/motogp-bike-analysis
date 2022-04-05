@@ -17,8 +17,7 @@ const Home = () => {
             <div className='lg:max-w-2xl pr-6 md:max-w-md p-6'>
                 <img className='rounded-lg' src={image} alt="" />
             </div>
-
-
+            
         </div>
     );
 };
