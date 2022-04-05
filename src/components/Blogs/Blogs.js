@@ -6,7 +6,7 @@ const Blogs = () => {
             <div className="border-neutral-900 outline outline-offset-2 outline-1 outline-indigo-900 rounded-lg border-solid mt-4 w-3/4 p-4">
                 <h1 className="text-3xl">What is context api?</h1>
                 <p>Whenever we need to share any data between components we share that data using props!
-                    but whenever the app get bigger or we have to make a lots component then we have to pass that data as props between nested components for using in a single component! Then it becomes so much default to maintain those data. <br></br>
+                    but whenever the app get bigger or we have to make a lots component then we have to pass that data as props between nested components for using in a single component! Then it becomes so much default to maintain and using those data. <br></br>
                     Thats where context api comes in! Context api store and export data and we can use that data at any component we just have to import it and we are good to go! It gives us a way to pass data through the component tree without having to pass props manually at every level.
                 </p>
             </div>

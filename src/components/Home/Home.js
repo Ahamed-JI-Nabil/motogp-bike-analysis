@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-12'>
-                <h1 className="text-4xl font-bold">Bikers Review({datas.slice(0,3).length})</h1>
+                <h1 className="text-4xl font-bold text-indigo-900">Bikers Review({datas.slice(0,3).length})</h1>
                 <div className='lg:grid grid-cols-3 gap-4 mt-12 p-8 '>
                     {
                         datas.slice(0, 3).map(data => <Review key={data.id} data={data} ></Review>)

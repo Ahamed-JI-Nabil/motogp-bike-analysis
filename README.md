@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## My live site link is [motogp-bike-analysis]() 
+
+* this is a programming hero assignment.
+* In this assignment I used React Router
+* Loaded and displayed some data and bikers review.
+* As css framework I used React Tailwind.
+* And I aldo used rechart.
+* And at last I answered some questions.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
