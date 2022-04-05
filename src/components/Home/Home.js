@@ -27,13 +27,13 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-12'>
-                <h1 className="text-4xl font-bold">Bikers Review</h1>
-                <div className='lg:grid grid-cols-2 gap-4 mt-12 p-8 '>
+                <h1 className="text-4xl font-bold">Bikers Review({datas.slice(0,3).length})</h1>
+                <div className='lg:grid grid-cols-3 gap-4 mt-12 p-8 '>
                     {
-                        datas.slice(0, 4).map(data => <Review key={data.id} data={data} ></Review>)
+                        datas.slice(0, 3).map(data => <Review key={data.id} data={data} ></Review>)
                     }
                 </div>
-                <button onClick={() => navigate('/reviews')} className="bg-indigo-700 text-white font-bold py-2 px-8 rounded-lg">See All Review</button>
+                <button onClick={() => navigate('/reviews')} className="bg-indigo-700 text-white font-bold py-2 px-8 rounded-lg mb-36">See All Review</button>
 
             </div>
         </div>
