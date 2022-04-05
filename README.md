@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## My live site link is [motogp-bike-analysis]() 
+## My live site link is [motogp-bike-analysis](https://motogp-bike-analysis.netlify.app/).
 
 * this is a programming hero assignment.
 * In this assignment I used React Router
